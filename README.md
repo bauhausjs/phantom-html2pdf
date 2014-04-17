@@ -13,6 +13,7 @@ npm install phantomjs-pdf
 1. PhantomJS
 2. Async
 3. Temp
+4. Debug
 
 ## Conversion API
 

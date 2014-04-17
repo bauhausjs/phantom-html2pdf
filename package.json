@@ -6,7 +6,8 @@
   "dependencies": {
     "phantomjs" : "latest",
     "async" : "latest",
-    "tmp" : "latest"
+    "tmp" : "latest",
+    "debug" : "latest"
   },
   "repository": {
     "type": "git",
