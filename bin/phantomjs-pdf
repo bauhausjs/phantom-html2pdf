@@ -6,7 +6,7 @@ var fs 		= require('fs');
 var lib 	= path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
 
 if(process.argv.length > 2) {
-	require(lib + '/html2pdf.js').convert(JSON.parse(process.argv[2]));
+	require(lib + '/phantomjs-pdf.js').convert(JSON.parse(process.argv[2]));
 } else {
     console.log("Pass on a file name/path");
 }

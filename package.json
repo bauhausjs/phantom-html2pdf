@@ -1,16 +1,26 @@
 {
   "author": "Philipp Christoph",
-  "name": "html2pdf",
-  "description": "Simple and lightweight HTML to text conversion using Node and PhantomJS",
-  "version": "0.1.0",
+  "name": "phantomjs-pdf",
+  "description": "Simple and lightweight HTML to PDF conversion using Node and PhantomJS",
+  "version": "0.1.1",
   "dependencies": {
     "phantomjs" : "latest",
     "async" : "latest",
     "tmp" : "latest"
   },
-  "main": "./lib/html2pdf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bauhausjs/html2pdf.git"
+  },
+  "keywords": [
+    "pdf",
+    "html",
+    "converter",
+    "bauhaus"
+  ],
+  "main": "./lib/phantomjs-pdf",
   "bin" : {
-    "html2pdf" : "./bin/html2pdf"
+    "phantomjs-pdf" : "./bin/phantomjs-pdf"
   },
   "devDependencies": {},
   "optionalDependencies": {},

@@ -1,11 +1,11 @@
-# HTML2PDF for NodeJS
+# phantomjs-pdf for NodeJS
 
 Simple and lightweight HTML to text conversion using Node and PhantomJS.
 
 ## Installation
 
 ````
-npm install html2pdf
+npm install phantomjs-pdf
 ````
 
 ## Dependencies
@@ -19,9 +19,9 @@ npm install html2pdf
 The API exposes a single function 'convert'. Using this function, you can input a multitude of settings, which are further specified below:
 
 ```` javascript
-var html2pdf = require('html2pdf');
+var pdf = require('phantomjs-pdf');
 
-html2pdf.convert(options, function(result) {
+pdf.convert(options, function(result) {
 	
 	/* Using a buffer and callback */
 	result.toBuffer(function(returnedBuffer) {});
@@ -46,7 +46,8 @@ Calling convert() requires an options object, which includes the following defin
 	"html" : "Path to HTML file",
 	"css" : "Path to additional CSS file",
 	"js" : "Path to additional JavaScript file",
-	"runnings" : "Path to runnings file. Check further below for explanation."
+	"runnings" : "Path to runnings file. Check further below for explanation.",
+	"deleteOnAction" : true/false (Deletes the created temp file once you access it via toBuffer() or toFile())
 }
 ````
 
