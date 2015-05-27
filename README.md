@@ -23,7 +23,7 @@ The API exposes a single function 'convert'. Using this function, you can input 
 var pdf = require('phantomjs-pdf');
 
 pdf.convert(options, function(result) {
-	
+
 	/* Using a buffer and callback */
 	result.toBuffer(function(returnedBuffer) {});
 
@@ -48,11 +48,27 @@ Calling convert() requires an options object, which includes the following defin
 	"css" : "Path to additional CSS file",
 	"js" : "Path to additional JavaScript file",
 	"runnings" : "Path to runnings file. Check further below for explanation.",
+	"paperSize" : "Two ways to do this, see below",
 	"deleteOnAction" : true/false (Deletes the created temp file once you access it via toBuffer() or toFile())
 }
 ````
 
 Instead of paths, one can also provide properly escaped source code.
+
+## Paper Size
+
+Either supply a paper format, orientation and border (this is the default)
+```` javascript
+{format: 'A4', orientation: 'portrait', border: '1cm'}
+````
+Or supply a page width, height and border.
+```` javascript
+{width: '3in', height: '2in', border: '0.5in'}
+````
+
+See link below for accepted units and formats
+
+
 
 ## Runnings File
 
