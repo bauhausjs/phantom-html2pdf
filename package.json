@@ -2,7 +2,7 @@
   "author": "Eugene Terehov",
   "name": "phantom-html2pdf",
   "description": "Simple and lightweight HTML to PDF conversion using Node and PhantomJS",
-  "version": "1.0",
+  "version": "1.0.0",
   "dependencies": {
     "phantomjs" : "latest",
     "async" : "latest",
