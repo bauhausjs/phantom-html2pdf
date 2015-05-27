@@ -1,8 +1,8 @@
 {
-  "author": "Philipp Christoph",
-  "name": "phantomjs-pdf",
+  "author": "Eugene Terehov",
+  "name": "phantom-html2pdf",
   "description": "Simple and lightweight HTML to PDF conversion using Node and PhantomJS",
-  "version": "0.1.1",
+  "version": "1.0",
   "dependencies": {
     "phantomjs" : "latest",
     "async" : "latest",
@@ -19,9 +19,9 @@
     "converter",
     "bauhaus"
   ],
-  "main": "./lib/phantomjs-pdf",
+  "main": "./lib/phantom-html2pdf",
   "bin" : {
-    "phantomjs-pdf" : "./bin/phantomjs-pdf"
+    "phantom-html2pdf" : "./bin/phantom-html2pdf"
   },
   "devDependencies": {},
   "optionalDependencies": {},
