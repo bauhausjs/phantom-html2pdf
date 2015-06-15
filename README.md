@@ -1,11 +1,11 @@
-# phantomjs-pdf for NodeJS
+# phantom-html2pdf for NodeJS
 
 Simple and lightweight HTML to text conversion using Node and PhantomJS.
 
 ## Installation
 
 ````
-npm install phantomjs-pdf
+npm install phantom-html2pdf
 ````
 
 ## Dependencies
@@ -20,7 +20,7 @@ npm install phantomjs-pdf
 The API exposes a single function 'convert'. Using this function, you can input a multitude of settings, which are further specified below:
 
 ```` javascript
-var pdf = require('phantomjs-pdf');
+var pdf = require('phantom-html2pdf');
 
 pdf.convert(options, function(result) {
 

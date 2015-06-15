@@ -1,17 +1,25 @@
 {
-  "author": "Eugene Terehov",
   "name": "phantom-html2pdf",
   "description": "Simple and lightweight HTML to PDF conversion using Node and PhantomJS",
-  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Philipp Christoph"
+    },
+    {
+      "name": "Evgenij Terehov",
+      "email": "opensource@terehov.de"
+    }
+  ],
+  "version": "1.0.2",
   "dependencies": {
-    "phantomjs" : "latest",
-    "async" : "latest",
-    "tmp" : "latest",
-    "debug" : "latest"
+    "phantomjs": "latest",
+    "async": "latest",
+    "tmp": "latest",
+    "debug": "latest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bauhausjs/html2pdf.git"
+    "url": "https://github.com/bauhausjs/phantom-html2pdf.git"
   },
   "keywords": [
     "pdf",
@@ -20,12 +28,22 @@
     "bauhaus"
   ],
   "main": "./lib/phantom-html2pdf",
-  "bin" : {
-    "phantom-html2pdf" : "./bin/phantom-html2pdf"
+  "bin": {
+    "phantom-html2pdf": "./bin/phantom-html2pdf"
   },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
     "node": "*"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/bauhausjs/html2pdf/issues"
+  },
+  "homepage": "https://github.com/bauhausjs/html2pdf",
+  "maintainers": [
+    {
+      "name": "eterehov",
+      "email": "opensource@terehov.de"
+    }
+  ]
 }
