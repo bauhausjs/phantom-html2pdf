@@ -40,10 +40,14 @@
     "url": "https://github.com/bauhausjs/html2pdf/issues"
   },
   "homepage": "https://github.com/bauhausjs/html2pdf",
+  "license" : "SEE LICENSE FILE",
   "maintainers": [
     {
       "name": "eterehov",
       "email": "opensource@terehov.de"
-    }
+   },
+   {
+      "name": "dustin-H"
+   }
   ]
 }
