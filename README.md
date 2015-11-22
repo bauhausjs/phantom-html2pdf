@@ -76,5 +76,9 @@ https://github.com/ariya/phantomjs/wiki/API-Reference-WebPage#wiki-webpage-paper
 
 ## Known issues
 
-On Macs the generated PDF is going to be a bitmap, however it works perfectly fine on Linux and Windows Servers. 
-So be careful when developing and testing on Macs; it's going to work in production :-) 
+On Macs the generated PDF is going to be a bitmap, however it works perfectly fine on Linux and Windows Servers.
+So be careful when developing and testing on Macs; it's going to work in production :-)
+
+## License
+
+[MIT](LICENSE)
