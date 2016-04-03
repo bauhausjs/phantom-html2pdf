@@ -31,7 +31,10 @@
   "bin": {
     "phantom-html2pdf": "./bin/phantom-html2pdf"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
@@ -49,5 +52,8 @@
    {
       "name": "dustin-H"
    }
-  ]
+  ],
+  "scripts": {
+    "test": "istanbul cover _mocha --include-all-sources -x \"**/test/**\" -- --recursive"
+  }
 }
