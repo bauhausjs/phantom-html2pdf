@@ -59,6 +59,7 @@
     }
   ],
   "scripts": {
-    "test": "istanbul cover _mocha --include-all-sources -x \"**/test/**\" -- --recursive"
+    "test": "istanbul cover _mocha --include-all-sources -x \"**/test/**\" -- --recursive",
+    "travis": "npm test"
   }
 }
