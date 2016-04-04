@@ -8,6 +8,7 @@ describe('phantom-html2pdf.js', function() {
   describe('Simple end to end test', function() {
 
     it('Should generate a PDF file without crashing', function(done) {
+      this.timeout(10000)
       var pdfOptions = {
         'html': '<!DOCTYPE html><html lang="en"><body><h1>Hello</h1><p>World</p></body></html>',
         'papersize': {format: 'A4', orientation: 'portrait', border: '1cm'}

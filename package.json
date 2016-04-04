@@ -32,6 +32,7 @@
     "phantom-html2pdf": "./bin/phantom-html2pdf"
   },
   "devDependencies": {
+    "assert": "^1.3.0",
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5"
   },
@@ -43,15 +44,15 @@
     "url": "https://github.com/bauhausjs/html2pdf/issues"
   },
   "homepage": "https://github.com/bauhausjs/html2pdf",
-  "license" : "SEE LICENSE IN LICENSE",
+  "license": "SEE LICENSE IN LICENSE",
   "maintainers": [
     {
       "name": "eterehov",
       "email": "opensource@terehov.de"
-   },
-   {
+    },
+    {
       "name": "dustin-H"
-   }
+    }
   ],
   "scripts": {
     "test": "istanbul cover _mocha --include-all-sources -x \"**/test/**\" -- --recursive"
