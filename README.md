@@ -1,5 +1,7 @@
 # phantom-html2pdf for NodeJS
 
+<a href="https://travis-ci.org/bauhausjs/phantom-html2pdf"><img src="https://travis-ci.org/bauhausjs/phantom-html2pdf.svg"/></a>
+
 Simple and lightweight HTML to text conversion using Node and PhantomJS.
 
 ## Installation
