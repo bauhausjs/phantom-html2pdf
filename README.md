@@ -81,6 +81,17 @@ https://github.com/ariya/phantomjs/wiki/API-Reference-WebPage#wiki-webpage-paper
 On Macs the generated PDF is going to be a bitmap, however it works perfectly fine on Linux and Windows Servers.
 So be careful when developing and testing on Macs; it's going to work in production :-)
 
+## Custom Fonts
+
+*Custom fonts on PhantomJS step-by-step for Ubuntu*
+
+- Get a Type1 version of the font you need. I needed to do a conversion from TrueType— there are lots of tools to do this with.
+- Upload your Type1 font to your ‘/usr/share/fonts/type1' directory.
+- Run ‘fc-cache -fv’
+- Enjoy having PhantomJS with your new font.
+
+Thanks to @befreestudios for this!
+
 ## License
 
 [MIT](LICENSE)
