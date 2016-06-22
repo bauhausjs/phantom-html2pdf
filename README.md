@@ -24,7 +24,7 @@ The API exposes a single function 'convert'. Using this function, you can input 
 ```` javascript
 var pdf = require('phantom-html2pdf');
 
-pdf.convert(options, function(result) {
+pdf.convert(options, function(err, result) {
 
 	/* Using a buffer and callback */
 	result.toBuffer(function(returnedBuffer) {});
