@@ -14,7 +14,8 @@ describe('phantom-html2pdf.js', function() {
         'papersize': {format: 'A4', orientation: 'portrait', border: '1cm'}
       };
 
-      pdf.convert(pdfOptions, function (result) {
+      pdf.convert(pdfOptions, function (err, result) {
+        assert(!err, "Error is empty");
         result.toBuffer(function (buffer) {
           assert(buffer, 'A buffer is returned');
           assert(buffer.length > 0, 'The generated buffer is not empty');
