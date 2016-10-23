@@ -16,6 +16,7 @@
   ],
   "version": "3.0.0",
   "dependencies": {
+    "async": "^2.1.2",
     "bluebird": "^3.4.6",
     "debug": "latest",
     "phantomjs-prebuilt": "latest",
