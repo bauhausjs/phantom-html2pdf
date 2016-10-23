@@ -51,7 +51,8 @@ Calling convert() requires an options object, which includes the following defin
 	"js" : "Path to additional JavaScript file",
 	"runnings" : "Path to runnings file. Check further below for explanation.",
 	"paperSize" : "Two ways to do this, see below",
-	"deleteOnAction" : true/false (Deletes the created temp file once you access it via toBuffer() or toFile())
+	"deleteOnAction" : true/false (Deletes the created temp file once you access it via toBuffer() or toFile()),
+  "runningsArgs": Object (You can pass an object to the runnings file when you have wrapped it with a function)
 }
 ````
 
@@ -75,6 +76,8 @@ See link below for accepted units and formats
 ## Runnings File
 
 https://github.com/ariya/phantomjs/wiki/API-Reference-WebPage#wiki-webpage-paperSize
+
+You can also wrap your runnings configuration with a function and pass runningsArgs.
 
 ## Known issues
 
