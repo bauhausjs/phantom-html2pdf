@@ -16,10 +16,10 @@
   ],
   "version": "3.0.0",
   "dependencies": {
+    "bluebird": "^3.4.6",
+    "debug": "latest",
     "phantomjs-prebuilt": "latest",
-    "async": "latest",
-    "tmp": "latest",
-    "debug": "latest"
+    "tmp": "latest"
   },
   "repository": {
     "type": "git",
