@@ -69,13 +69,11 @@ Or supply a page width, height and border.
 {width: '3in', height: '2in', border: '0.5in'}
 ````
 
-See link below for accepted units and formats
+See link below for accepted units and formats:
 
-
+http://phantomjs.org/api/webpage/property/paper-size.html
 
 ## Runnings File
-
-https://github.com/ariya/phantomjs/wiki/API-Reference-WebPage#wiki-webpage-paperSize
 
 You can also wrap your runnings configuration with a function and pass runningsArgs.
 
