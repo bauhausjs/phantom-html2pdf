@@ -4,6 +4,8 @@
 
 Simple and lightweight HTML to text conversion using Node and PhantomJS.
 
+*Important:* PhantomJS development is suspended until further notice (see [#15344](https://github.com/ariya/phantomjs/issues/15344) for more details). Since this project is just a small wrapper around PhantomJS we will not maintain it anymore.
+
 ## Installation
 
 ````
